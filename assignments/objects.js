@@ -31,7 +31,7 @@ const kennan = {
   "email": "kdiben1@tinypic.com",
   "gender": "M",
   "speak": function() {
-    console.log("Hello, my name is "+ kennan.name + "!")
+    return("Hello, my name is "+ kennan.name + "!")
   }
 }
 
@@ -104,11 +104,11 @@ const parent = {
 }
 
 // Log the parent object's name
-
+console.log(parent.name);
 // Log the child's age
-
+console.log(parent.children.age);
 // Log the name and age of the grandchild
-
+console.log(`${parent.children.children.name} ${parent.children.children.age}`);
 // Have the parent speak
 
 // Have the child speak
